@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+    .container .advice-box .divider .img-desktop {
+        display: none;
+    }
+
+    .container .advice-box .divider .img-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 50%;
+    }
+}

@@ -16,11 +16,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 54rem;
-    height: 33.2rem;
+    max-width: 54rem;
     border-radius: 15px;
     position: relative;
-    padding: 5rem 5rem;
+    margin-inline: 1.5rem;
 }
 
 .container .advice-box .title {
@@ -28,6 +27,7 @@ body {
     text-transform: uppercase;
     font-size: 1.3rem;
     letter-spacing: 0.4rem;
+    padding-top: 5rem;
     padding-bottom: 2.5rem;
 }
 
@@ -36,11 +36,17 @@ body {
     font-size: 2.72rem;
     font-weight: 800;
     text-align: center;
+    padding-inline: 5rem;
     padding-bottom: 4.5rem;
+
 }
 
 .container .advice-box .divider {
-    justify-content: flex-end;
+    padding-bottom: 7rem;
+}
+
+.container .advice-box .divider .img-mobile {
+    display: none;
 }
 
 .container .advice-box .btn-new-advice {
@@ -62,12 +68,13 @@ body {
 
 /* FOOTER */
 .attribution {
-    font-size: 11px;
+    color: hsl(193, 38%, 86%);
+    font-size: 1.2rem;
     text-align: center;
     position: absolute;
-    bottom: 10rem;
+    bottom: 7rem;
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(150, 100%, 66%);
   }
