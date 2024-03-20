@@ -8,8 +8,19 @@
     }
 }
 
+@media (max-width: 475px) {
+    .container {
+        align-items: flex-start;
+        margin-top: 30%;
+    }
+}
+
 @media (max-width: 375px) {
-    html {
-        font-size: 50%;
+    .container .advice-box {
+        margin-inline: 1.1rem;
+    }
+
+    .container .advice-box .advice {
+        padding-inline: 3rem;
     }
 }
